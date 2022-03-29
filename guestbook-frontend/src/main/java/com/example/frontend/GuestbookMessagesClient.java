@@ -12,6 +12,8 @@ import java.util.Map;
  * We'll default the endpoint to localhost for now, this will be overridden.
  *
  * @KEN
+ * FeignClient is a declarative Rest client. (https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)
+ * 
  * With feign, Spring Cloud integrates Ribbon and Eureka to provide a client-side load balanced http clients.
  * Client-side load-balancing: (https://www.linkedin.com/pulse/server-vs-client-side-load-balancing-ramit-sharma)
  * 	The load balancing decision resides with the client itself.
